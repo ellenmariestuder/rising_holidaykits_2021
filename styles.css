@@ -35,6 +35,7 @@ section {
   url("22028CA1-5CEF-49D5-9363-48343965E594.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
 }
 
