@@ -35,6 +35,7 @@ section {
   url("22028CA1-5CEF-49D5-9363-48343965E594.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container{
@@ -42,7 +43,7 @@ section {
   max-width: 80rem;
   margin: 0 auto;
   padding: 0 1.5rem;
-  position: relative;
+  /* position: relative; */
 }
 
 .page-header {
@@ -148,4 +149,47 @@ section {
 
 .accordion-item:target .accordion-link .ion-md-arrow-down{
   display: block;
+}
+
+
+@media only screen and (max-width: 500px) {
+  section {
+    background-image: 
+  linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.7)),  
+  url("4AE9F376-591E-4AFC-978A-70724EB9565C.jpeg");
+  }
+
+ .accordion {
+   margin-top: 40px;
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+  .page-header {
+    font-size: 25px;
+  }
+  
+  .rising {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .page-header {
+    font-size: 25px;
+  }
+  
+  .rising {
+    font-size: 35px;
+  }
+
+ .accordion-link h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+ .accordion-link h3 {
+    font-size: 15px;
+  }
 }
