@@ -43,7 +43,7 @@ section {
   width: 100%;
   max-width: 80rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  /* padding: 0 1.5rem; */
   /* position: relative; */
 }
 
@@ -134,7 +134,7 @@ section {
 
 .answer p{
   /* color: #fff; */
-  color: var(--sub-text-color);
+  color: var(--main-text-color);
   font-size: 15px;
   padding: 2rem;
   
@@ -155,9 +155,13 @@ section {
 
 @media only screen and (max-width: 500px) {
   section {
+    height: 100vh;
     background-image: 
   linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.7)),  
   url("4AE9F376-591E-4AFC-978A-70724EB9565C.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden;
   }
 
  .accordion {
