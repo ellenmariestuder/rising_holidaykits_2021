@@ -217,6 +217,12 @@ textarea {
   .rising {
     font-size: 40px;
   }
+
+  .contact-form { 
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
 }
 
 @media only screen and (max-width: 380px) {
