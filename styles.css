@@ -127,19 +127,16 @@ section {
   max-height: 0;
   overflow: hidden;
   position: relative;
-  /* background-color: #000; */
   transition: max-height 650ms;
 }
 
 .answer p{
-  /* color: #fff; */
   color: var(--main-text-color);
   font-size: 15px;
   padding: 1rem;
 }
 
 .accordion-item:target .answer{
-  /* max-height: 20rem; */
   max-height: 60rem;
 }
 
@@ -160,7 +157,6 @@ section {
 
 input, textarea {
   font-family: 'DM Sans', sans-serif;
-  /* font: inherit; */
   border: 0; 
   outline: 0;
   padding: 1em;
@@ -177,16 +173,28 @@ input, textarea {
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: rgb(38, 57, 77) 0px 10px 20px -5px;
-  /* background-color: #b30000;
-  opacity: .7; */
   background-color: rgb(179, 0, 0, .75);
 }
 
 textarea {
-  /* height: 116px; */
   height: 58px;
 }
 
+@media only screen and (max-width: 540px) {
+  body {
+    position: fixed;
+  }
+
+  /* .accordion-item:target .answer{
+    max-height: 100rem;
+  } */
+  
+  .contact-form { 
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  
+}
 
 @media only screen and (max-width: 500px) {
   body {
@@ -209,6 +217,10 @@ textarea {
    margin-left: 20px;
    margin-right: 20px;
  }
+
+ .accordion-item:target .answer{
+  max-height: 100rem;
+}
 
   .page-header {
     font-size: 25px;
@@ -243,4 +255,14 @@ textarea {
  .accordion-link h3 {
     font-size: 15px;
   }
+
+  .contact-form { 
+    padding-top: 0;
+  }
+  
+  input, textarea {
+    padding: .75em;
+    margin-top: .75em;
+  }
+
 }
