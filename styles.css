@@ -173,7 +173,7 @@ textarea {
   body {
     position: fixed;
   }
-
+  
   /* .accordion-item:target .answer{
     max-height: 100rem;
   } */
@@ -189,6 +189,10 @@ textarea {
   body {
     position: fixed;
   }
+
+  /* .page-header div {
+    margin-bottom: 20px;
+  } */
   
   section {
     height: 100vh;
@@ -202,7 +206,7 @@ textarea {
   }
 
  .accordion {
-   margin-top: 40px;
+   margin-top: 60px;
    margin-left: 20px;
    margin-right: 20px;
  }
