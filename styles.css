@@ -195,13 +195,13 @@ textarea {
   } */
   
   section {
-    height: 100vh;
+    height: 150vh;
     background-image: 
   linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.7)),  
   url("F50586F6-A9A0-4A43-8296-FEA35BAA2959.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   overflow: scroll;
   }
 
