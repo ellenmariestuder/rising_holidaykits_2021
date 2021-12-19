@@ -202,7 +202,7 @@ textarea {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
   }
 
  .accordion {
