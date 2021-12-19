@@ -212,7 +212,7 @@ textarea {
  }
 
  .accordion-item:target .answer{
-  max-height: 100rem;
+  max-height: 130rem;
 }
 
   .page-header {
